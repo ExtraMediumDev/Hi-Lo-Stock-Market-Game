@@ -24,7 +24,7 @@ export default function CreateRoomModal({ onClose }: CreateRoomModalProps) {
     }
 
     try {
-      const response = await axios.post(`http://hilotrader.org/create-room`, {
+      const response = await axios.post(`https://hilotrader.org/create-room`, {
         room_name: roomName,
         password: isPrivate ? password : null,
         isPrivate,

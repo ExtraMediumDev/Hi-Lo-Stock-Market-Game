@@ -46,7 +46,7 @@ export default function GameList() {
   const fetchRooms = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`http://hilotrader.org/rooms`);
+      const response = await axios.get(`https://hilotrader.org/rooms`);
       setRooms(response.data);
 
       const roomCodeMap = {};
