@@ -8,6 +8,7 @@ let socket: any = null;
 export const getSocket = () => {
   if (!socket) {
     socket = io(process.env.EXPO_PUBLIC_SOCKET_URL, {
+      withCredentials: true,
       transports: ['websocket'],
       reconnection: true,
       reconnectionAttempts: 5,
