@@ -9,7 +9,7 @@ export default function About() {
         <View style={aboutStyles.container}>
             <Text style={aboutStyles.title}>About Quant Trading Card Game</Text>
             <Text style={aboutStyles.description}>
-                Quant Trading Card Game is a minimalist game that combines quantitative analysis with the excitement of trading cards. Players use their knowledge of markets and statistics to outmaneuver their opponents.
+                Description to be added
             </Text>
         
             {/* Navigate Back to Home */}
