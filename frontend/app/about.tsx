@@ -9,7 +9,7 @@ export default function About() {
         <View style={aboutStyles.container}>
             <Text style={aboutStyles.title}>About Quant Trading Card Game</Text>
             <Text style={aboutStyles.description}>
-                Description to be added
+                Description to be added.
             </Text>
         
             {/* Navigate Back to Home */}
